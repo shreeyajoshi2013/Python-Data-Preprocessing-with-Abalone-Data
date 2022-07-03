@@ -1,6 +1,6 @@
 # Python Data Preprocessing with Abalone dataset
 
-This dataset contains information about physical measurements of abalone for guessing its age which are also made available through counting number of rings('Rings' feature). This project assesses the data and preprocesses it for further tasks. Also, normalization is executed in the end part. <br>
+This dataset contains information about physical measurements of abalone for predicting 'Rings' from other features. This project assesses the data and preprocesses it, making it useful for classification tasks. Additionally, normalization is executed in the end part. <br>
 
 The dataset taken from [link](https://archive.ics.uci.edu/ml/datasets/abalone).
 
