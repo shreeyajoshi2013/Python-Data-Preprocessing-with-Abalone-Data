@@ -1,6 +1,6 @@
 # Python Data Preprocessing with Abalone dataset
 
-This dataset contains information about physical measurements of abalone for predicting 'Rings' from other features. This project assesses the data and preprocesses it, making it useful for classification tasks. Additionally, normalization is executed in the end part. <br>
+This dataset contains information about physical measurements of abalone (a type of marine snails) for predicting their age ('Rings' feature in the dataset), from other features. This project assesses the data and preprocesses it, making it useful for classification tasks. Additionally, normalization is executed in the end part. <br>
 
 The dataset taken from [link](https://archive.ics.uci.edu/ml/datasets/abalone).
 
@@ -37,7 +37,7 @@ By implementing boxplot, it is observed that for few of all the features('Whole 
 6)	Normalization <br>
 Zscore normalization is applied on the data. By plotting two of the features and comparing the normalized and unnormalized plots, it is observed that not much change is obtained in the shape, but there is a substantial change in the axis scale. <br>
 ### Conclusion
-*   The data does not have any missing values. So there is no need to worry about handling this issue. <br>
+*   The data does not have any missing values. So there is no need of interpolation. <br>
 *   As the dataset is not balanced, more data might be needed for a confident and reliable prediction of the age of abalone from the features. <br>
 *   The dataset contains few outliers. Hence the data needs further cleaning.
 
